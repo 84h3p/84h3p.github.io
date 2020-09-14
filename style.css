@@ -1,0 +1,40 @@
+@font-face {
+    font-family: main;
+    src: url("fonts/main.otf") format("opentype");
+  }
+
+body {
+  background-color: #68b0ab;
+  font-family: main;
+  color: #ecf4f3;
+}
+
+.header {
+  font-size: 100px;
+  margin: 25px;
+  padding: 25px;
+  border: 4px solid #ecf4f3;
+  border-radius: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  text-align: center;
+  font-size: 80px;
+  padding: 150px;
+}
+
+#inp {
+  font-size: 26px;
+}
+
+#btn {
+  background-color: #ff7e67;
+  border: 4px solid #ecf4f3;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+  color: #ecf4f3;
+}

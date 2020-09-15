@@ -1,4 +1,7 @@
 function printForm(e){
+  let fruits = ["б", "в", "г", "д", "ж", "з",
+  "й", "л", "м", "н", "р", "п", "ф", "к", "т",
+   "ш", "с", "х", "ц", "ч", "щ"]
 
     // получаем значение поля key
     var keyBox = document.search.key;
@@ -11,12 +14,21 @@ function printForm(e){
 
     // создаем новый параграф
     var pElement = document.createElement("p");
+
+    var endLet = (val.charAt(val.length -1))
     // устанавливаем у него текст
-    pElement.textContent = val + 'цетопс';
+    if (fruits.includes(endLet)) {
+      pElement.textContent = val + 'оцетопс';
+    }
+    else {
+      pElement.textContent = val + 'цетопс';
+    }
+
     // добавляем параграф в printBlock
     printBlock.appendChild(pElement);
 }
 
 
     var printButton = document.search.print;
+  //  printButton.addEventListener("click", printForm);
     printButton.addEventListener("click", printForm);

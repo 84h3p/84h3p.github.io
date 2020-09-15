@@ -20,6 +20,9 @@ function printForm(e){
     if (fruits.includes(endLet)) {
       pElement.textContent = val + 'оцетопс';
     }
+    else if (val.length <= 0) {
+      pElement.textContent = 'Нету имени';
+    }
     else {
       pElement.textContent = val + 'цетопс';
     }
@@ -31,4 +34,6 @@ function printForm(e){
 
     var printButton = document.search.print;
   //  printButton.addEventListener("click", printForm);
-    printButton.addEventListener("click", printForm);
+    printButton.addEventListener("click", printForm)
+
+    search.addEventListener('submit', (event) => event.preventDefault())

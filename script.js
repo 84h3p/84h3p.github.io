@@ -21,7 +21,7 @@ function printForm(e){
       pElement.textContent = val + 'оцетопс';
     }
     else if (val.length <= 0) {
-      pElement.textContent = 'Нету имени';
+      pElement.textContent = 'Нет имени';
     }
     else {
       pElement.textContent = val + 'цетопс';

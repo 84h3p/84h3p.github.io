@@ -20,7 +20,7 @@ function printForm(e){
     if (fruits.includes(endLet)) {
       pElement.textContent = val + 'оцетопс';
     }
-    else if (val.length != 0) {
+    else if (val.length == 0) {
       pElement.textContent = 'Нет имени';
     }
     else {

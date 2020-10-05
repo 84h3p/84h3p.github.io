@@ -38,7 +38,7 @@ function printForm(event) {
           pElement.textContent = val + 'о' + dino;
      }
      else if (val.length === 0) {
-          pElement.textContent = 'Нету имени';
+          pElement.textContent = 'Нет имени';
      }
      else {
           pElement.textContent = val + dino;

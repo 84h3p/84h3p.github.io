@@ -7,7 +7,9 @@ body {
   background-color: #68b0ab;
   font-family: main;
   color: #ecf4f3;
+
 }
+
 
 .header {
   font-size: 100px;
@@ -21,8 +23,11 @@ body {
 
 .content {
   text-align: center;
-  font-size: 80px;
   padding: 150px;
+}
+
+.content-header {
+  font-size: 50px;
 }
 
 input:focus {
@@ -34,6 +39,7 @@ input:focus {
   border-radius: 100px;
   padding: 10px;
   border: none;
+  transition: 0.1s;
 }
 
 #btn {
@@ -44,4 +50,17 @@ input:focus {
   font-size: 16px;
   border-radius: 100px;
   color: #ecf4f3;
+  transition: 0.1s;
+}
+
+#btn:hover {
+  font-size:18px;
+  transition: 0.1s;
+}
+
+
+#inp:focus {
+  padding: 16px;
+  transition: 0.1s;
+  font-size: 27px;
 }

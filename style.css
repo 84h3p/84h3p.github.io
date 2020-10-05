@@ -64,3 +64,7 @@ input:focus {
   transition: 0.1s;
   font-size: 27px;
 }
+
+p {
+  font-size: 55px;
+}

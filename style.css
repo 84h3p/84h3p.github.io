@@ -53,9 +53,8 @@ input:focus {
   transition: 0.1s;
 }
 
-#btn:hover {
-  font-size:18px;
-  transition: 0.1s;
+#btn:active {
+  transform: translateY(4px);
 }
 
 
